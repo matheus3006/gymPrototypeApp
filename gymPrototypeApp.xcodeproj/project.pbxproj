@@ -32,6 +32,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57639CB1284D6B7400AA6230 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		57639CB2284D6B7A00AA6230 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57639CB3284D6B7E00AA6230 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57639CB4284D6B8600AA6230 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57639CB5284D6B8E00AA6230 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		57CB3736284BD2B1007C1925 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +86,11 @@
 		57CB3741284BD2B1007C1925 /* gymPrototypeApp */ = {
 			isa = PBXGroup;
 			children = (
+				57639CB3284D6B7E00AA6230 /* Extensions */,
+				57639CB5284D6B8E00AA6230 /* Service */,
+				57639CB4284D6B8600AA6230 /* Utils */,
+				57639CB2284D6B7A00AA6230 /* Model */,
+				57639CB1284D6B7400AA6230 /* Core */,
 				57CB3742284BD2B1007C1925 /* gymPrototypeAppApp.swift */,
 				57CB3744284BD2B1007C1925 /* ContentView.swift */,
 				57CB3746284BD2B2007C1925 /* Assets.xcassets */,
